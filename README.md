@@ -1,6 +1,6 @@
 # AdventOfCode22
 
-**TODO: Add description**
+**TODO: A place to share my attempts at the advent_of_code**
 
 ## Installation
 
