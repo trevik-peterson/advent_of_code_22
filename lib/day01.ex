@@ -5,7 +5,9 @@ defmodule Day01 do
     contents
     |> String.split("\n\n", trim: true)
     |> Enum.map(fn calories -> convert_and_sum(calories) end)
-    |> Enum.max()
+    |> Enum.sort(:desc)
+    |> Enum.take(3)
+    |> Enum.sum()
     |> IO.inspect()
   end
 
