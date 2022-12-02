@@ -5,4 +5,9 @@ defmodule AdventOfCode22Test do
   test "greets the world" do
     Day01.calorie_count()
   end
+
+  test "day 2" do
+    # Day02.p1()
+    Day02.p2()
+  end
 end
