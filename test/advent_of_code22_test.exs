@@ -15,4 +15,9 @@ defmodule AdventOfCode22Test do
     # Day03.p1()
     Day03b.p2()
   end
+
+  test "day 4" do
+    # Day04.p1()
+    Day04.p2()
+  end
 end
